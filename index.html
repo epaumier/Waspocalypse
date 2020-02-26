@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>WASPOCALPYSE</title>
+  <meta name="This is a simple game made with CSS and Javascript" content="Wasp Game">
+  <meta name="Tedd2011" content="Specialist Technical Test">
+
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="gameTitleContainer">
+        <h1 class="gameTitle">WASPOCALPYSE</h1>
+        <audio controls src="./assets/audio/e1m1.mp2"></audio>
+    </div>
+    <div class="waspContainer">
+        <div class="queenWaspContainer">
+                <img class="queenWaspImage" src="./assets/images/queenWasp.png">
+                <h3>Queen Wasp</h3>
+                <p id="QueenHP" class="HitPoints"></p>
+        </div>
+        <div class="workerDroneWaspContainer">
+            <div class="workerWasp">
+                <img src="./assets/images/workerWasp.png">
+                <h3>Worker Wasp</h3>
+                <p id="WorkerHP1" class="HitPoints"></p>
+            </div>
+            <div class="workerWasp">
+                <img src="./assets/images/workerWasp.png">
+                <h3>Worker Wasp</h3>
+                <p id="WorkerHP2" class="HitPoints"></p>
+            </div>
+            <div class="workerWasp">
+                <img src="./assets/images/workerWasp.png">
+                <h3>Worker Wasp</h3>
+                <p id="WorkerHP3" class="HitPoints"></p>
+            </div>
+            <div class="workerWasp">
+                <img src="./assets/images/workerWasp.png">
+                <h3>Worker Wasp</h3>
+                <p id="WorkerHP4" class="HitPoints"></p>
+            </div>
+            <div class="workerWasp">
+                <img src="./assets/images/workerWasp.png">
+                <h3>Worker Wasp</h3>
+                <p id="WorkerHP5" class="HitPoints"></p>
+            </div>
+        </div>
+        <div class="workerDroneWaspContainer">
+            <div class="droneWasp">
+                <img src="./assets/images/droneWasp.png">
+                <h4>drone Wasp</h4>
+                <p id="DroneHP1" class="HitPoints"></p>
+            </div>
+            <div class="droneWasp">
+                <img src="./assets/images/droneWasp.png">
+                <h4>drone Wasp</h4>
+                <p id="DroneHP2" class="HitPoints"></p>
+            </div>
+            <div class="droneWasp">
+                <img src="./assets/images/droneWasp.png">
+                <h4>drone Wasp</h4>
+                <p id="DroneHP3" class="HitPoints"></p>
+            </div>
+            <div class="droneWasp">
+                <img src="./assets/images/droneWasp.png">
+                <h4>drone Wasp</h4>
+                <p id="DroneHP4" class="HitPoints"></p>
+            </div>
+            <div class="droneWasp">
+                <img src="./assets/images/droneWasp.png">
+                <h4>drone Wasp</h4>
+                <p id="DroneHP5" class="HitPoints"></p>
+            </div>
+            <div class="droneWasp">
+                <img src="./assets/images/droneWasp.png">
+                <h4>drone Wasp</h4>
+                <p id="DroneHP6" class="HitPoints"></p>
+            </div>
+            <div class="droneWasp">
+                <img src="./assets/images/droneWasp.png">
+                <h4>drone Wasp</h4>
+                <p id="DroneHP7" class="HitPoints"></p>
+            </div>
+            <div class="droneWasp">
+                <img src="./assets/images/droneWasp.png">
+                <h4>drone Wasp</h4>
+                <p id="DroneHP8" class="HitPoints"></p>
+            </div>
+        </div>
+        </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p>CONGRATULATIONS !</p>
+            <p>YOU HAVE SURVIVED WASPOCALPYSE</p>
+            <button class="damageButton" onclick="location.reload()">Play again</button>
+        </div>
+    </div>
+        <button type="button" id="myButton" onclick="damage()" class="damageButton">Destroy !</button>
+  <script src="script.js"></script>
+  <audio id="pistol" src="http://www.wolfensteingoodies.com/archives/olddoom/sounds/dspistol.wav"></audio>
+  <audio id="death" src="http://www.wolfensteingoodies.com/archives/olddoom/sounds/dspodth3.wav"></audio>
+  
+</body>
+</html>
