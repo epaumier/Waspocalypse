@@ -1,6 +1,10 @@
 # Waspocalypse
 I created this game with HTML5, CSS &amp; Javascript as part as a challenge in a recruitment process
 
+Go checkout this quirky project: http://paumier-edouard.com/Waspocalypse/
+
+## The Assignment
+
 The objective of this exercise is to create a frontend application that performs the following tasks:
 
 * A button must be present to kick off the process of hitting a random wasp.
